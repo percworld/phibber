@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Y'all, Y'all Best Peep this new Phibber page
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="soundcloud.com/phibber"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Phibber on Soundcloud
         </a>
       </header>
     </div>
