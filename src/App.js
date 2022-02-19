@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+//import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={'https://i1.sndcdn.com/avatars-000517301901-4u4lgr-t300x300.jpg'} className="App-logo" alt="logo" />
         <p>
           Y'all, Y'all Best Peep this new Phibber page
         </p>

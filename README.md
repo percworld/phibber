@@ -1,3 +1,5 @@
+
+# Hi Adam, we can use this space to document ideas for your portfolio and the source folder will contain whatever components we come up with.  This is a pretty sick playground! Make it yours.  To make sure our files are available, if you have some art that you'd rather not point to online with a hyper-reference then you can actually stick it in the public folder. 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
