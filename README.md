@@ -13,6 +13,6 @@ https://soundcloud.com/phibber/paradise-1/s-FBAOHUS4iQn
 https://flic.kr/p/2n7yH6d
 
 Ghostly:
-https://soundcloud.com/phibber/ghostly
+https://soundcloud.com/phibber/ghostly/s-HhgtmJfKl0a
 https://flic.kr/p/U9BuxC
 
