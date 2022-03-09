@@ -1,13 +1,15 @@
 //import { Route, Switch } from 'react-router-dom';
-import './App.css';
-
+import './App.scss';
+import Footer from '../Footer/Footer';
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <header className="App-header">
-        <img src={'https://i1.sndcdn.com/avatars-000517301901-4u4lgr-t300x300.jpg'} className="App-logo" alt="logo" />
+        <img src={' https://flic.kr/p/YopRAc'} className="App-logo" alt="logo" />
+
+        {/* <img src={'https://i1.sndcdn.com/avatars-000517301901-4u4lgr-t300x300.jpg'} className="App-logo" alt="logo" /> */}
         <p>
-          Y'all, Y'all Best Peep this new Phibber page
+          Chuck - new page
         </p>
         <a
           className="App-link"
@@ -18,7 +20,8 @@ function App() {
           Phibber on Soundcloud
         </a>
       </header>
-    </div>
+      <Footer></Footer>
+    </main>
   );
 }
 
