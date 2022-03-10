@@ -1,7 +1,7 @@
 @import '../../index.scss';
 
 header {
-  background-color: #2B3A45 !important;
+  background-color: $blue;
   // background-color: #C0B6A6 important;
   height: 16vh;
   position: absolute;
@@ -10,7 +10,7 @@ header {
   justify-content: space-around;
   a {
       font-size: 29px;
-      color: #c0b6a6;
+      color: $text;
       margin-left: .5em;
       &:hover {
           

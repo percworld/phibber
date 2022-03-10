@@ -1,0 +1,16 @@
+@mixin headerButton {
+//   background-color: $button-color;
+//   color: #EAF2E3;
+//   border-radius: 16px;
+}
+
+@mixin hoverButton {
+//   background-color: $button-color;
+//   color: #08090A;
+//   border: solid #08090A 1px;  
+}
+
+@mixin bottom {
+    overflow-y: scroll;
+    max-height: 74vh;
+}

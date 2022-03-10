@@ -1,16 +1,16 @@
 @import '../../index.scss';
 
 footer {
-  background-color: #9b938a !important;
+  background-color: $footer-background !important;
   height: 8vh;
   position: absolute;
-  bottom: -19px;
+  bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
   a {
       font-size: 29px;
-      color: #2B3A45;
+      color: $blue;
       margin-top: 1vh;
       margin-left: .5em;
       &:hover {
@@ -21,6 +21,7 @@ footer {
 
 .monster {
   margin-top: 1vh;
+  color: $blue;
 }
 
 .activeLink {
