@@ -11,8 +11,9 @@ function App() {
       </Header>
       <section className="body">
         <img src={Inanima} className="artwork" alt="artwork" />
-        <p>
-          Chuck Morris - new app boiler
+        <p className="phibber">
+          PHIBBER
+          {/* Chuck Morris - new app boiler */}
         </p>
         <a
           className="App-link"

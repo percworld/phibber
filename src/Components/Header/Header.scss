@@ -2,6 +2,18 @@
 
 header {
   background-color: #2B3A45 !important;
-  height: 10vh;
-  
+  // background-color: #C0B6A6 important;
+  height: 16vh;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  a {
+      font-size: 29px;
+      color: #0c6942ad;
+      margin-left: .5em;
+      &:hover {
+          
+      }
+  }
 }

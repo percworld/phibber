@@ -2,9 +2,28 @@
 
 footer {
   background-color: #C0B6A6 !important;
-  height: 10vh;
+  height: 8vh;
+  position: absolute;
+  bottom: -18px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  a {
+      font-size: 29px;
+      color: #0c6942ad;
+      margin-left: .5em;
+      &:hover {
+          
+      }
+  }
 }
 
 .monster {
   margin-top: 2vh;
+}
+
+.activeLink {
+  font-size: 25px;
+  animation: color-change 11s infinite;
+  animation-delay: 0s;
 }
