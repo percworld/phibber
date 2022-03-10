@@ -1,7 +1,7 @@
 import './Footer.scss';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { ReactComponent as Monster } from '../Icons/github.svg'
+import { ReactComponent as Monster } from '../icons/github.svg'
 
 const Footer = () => {
   return (

@@ -1,15 +1,18 @@
 //import { Route, Switch } from 'react-router-dom';
 import './App.scss';
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
+import Header from '../header/Header';
+import Inanima from '../pics/Inanima.png';
 function App() {
   return (
     <main className="App">
-      <header className="App-header">
-        <img src={' https://flic.kr/p/YopRAc'} className="App-logo" alt="logo" />
-
-        {/* <img src={'https://i1.sndcdn.com/avatars-000517301901-4u4lgr-t300x300.jpg'} className="App-logo" alt="logo" /> */}
+      <Header>
+        
+      </Header>
+      <section className="body">
+        <img src={Inanima} className="artwork" alt="artwork" />
         <p>
-          Chuck - new page
+          Chuck Morris - new app boiler
         </p>
         <a
           className="App-link"
@@ -17,9 +20,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Phibber on Soundcloud
+          Whistle While you Work
         </a>
-      </header>
+      </section>
       <Footer></Footer>
     </main>
   );
