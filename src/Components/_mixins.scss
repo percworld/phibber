@@ -13,8 +13,12 @@
 @mixin rocks {
     background: $blue;
     background: radial-gradient(circle, $blue 0%, $box-color 83%);
-    box-shadow:  3px 1px 3px #a91e2a,
-             -3px -1px 3px #e52838;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow:  1px 1px 1px #a91e2a,
+             -1px -1px 1px #e52838;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    
 }
 
 @mixin bottom {
