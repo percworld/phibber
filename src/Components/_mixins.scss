@@ -10,6 +10,11 @@
 //   border: solid #08090A 1px;  
 }
 
+@mixin rocks {
+    background: $blue;
+    background: radial-gradient(circle, $blue 0%, $box-color 83%);
+}
+
 @mixin bottom {
     overflow-y: scroll;
     max-height: 74vh;

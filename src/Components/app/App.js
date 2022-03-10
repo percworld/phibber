@@ -3,12 +3,11 @@ import './App.scss';
 import Footer from '../footer/Footer';
 import Header from '../header/Header';
 import Inanima from '../pics/Inanima.png';
+
 function App() {
   return (
     <main className="App">
-      <Header>
-        
-      </Header>
+      <Header></Header>
       <section className="body">
         <img src={Inanima} className="artwork" alt="artwork" />
         <div className="title-box">
