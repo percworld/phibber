@@ -1,7 +1,7 @@
 //import { Route, Switch } from 'react-router-dom';
 import './App.scss';
-import Footer from '../footer/Footer';
 import Header from '../header/Header';
+import Footer from '../footer/Footer';
 import Inanima from '../pics/Inanima.png';
 
 function App() {
