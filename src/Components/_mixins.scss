@@ -1,0 +1,27 @@
+@mixin headerButton {
+//   background-color: $button-color;
+//   color: #EAF2E3;
+//   border-radius: 16px;
+}
+
+@mixin hoverButton {
+//   background-color: $button-color;
+//   color: #08090A;
+//   border: solid #08090A 1px;  
+}
+
+@mixin rocks {
+    background: $blue;
+    background: radial-gradient(circle, $blue 0%, $box-color 83%);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow:  1px 1px 1px #a91e2a,
+             -1px -1px 1px #e52838;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    
+}
+
+@mixin bottom {
+    overflow-y: scroll;
+    max-height: 74vh;
+}

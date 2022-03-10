@@ -7,12 +7,11 @@
   height: 100vh;
   content: '';
   position: absolute;
-  top: -19px;
+  top: 0;
   left: 0;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  //background-image: '../pics/Inanima.png';
   background-attachment: fixed;
 }
 
@@ -24,19 +23,19 @@
 }
 
 .body {
-  // background-color: #2B3A45;
-  background-image: url('../pics/Inanima.png');
-  min-height: 95vh;
+  background-color: $inanima-beige;
+  // background-image: url('../pics/Inanima.png');
+  min-height: 94vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $text;
 }
 
 .App-link {
-  color: #bfb4b4;
+  color: $text;
 }
 
 @keyframes App-logo-spin {
@@ -49,7 +48,7 @@
 }
 
 .artwork {
-  height: 71vmin;
+  height: 66vmin;
   pointer-events: none;
 }
 
@@ -58,28 +57,34 @@
 }
 
 .title {
-  color: #bfb4b4;
+  color: $text;
   border-radius: 13% 87% 23% 77% / 12% 30% 70% 88%;
-  background-color: #b32f18;
   width: 42vh;
-  margin-top: -2vh;
-
+  margin-top: -1.7vh;
+  @include rocks;
 }
 
 
 .login-or-link {
-  margin-top: -4vh;
+  margin-top: -1.5px;
   border-radius: 18% 82% 73% 27% / 26% 30% 70% 74% ;
-  background-color: #b32f18;
-  color: acacb7;
   width: 100vw;
+  @include rocks;
 }
 
 .petal {
-  color: #bfb4b4;
   border-radius: 44% 56% 95% 5% / 23% 23% 77% 77% ;
-  background-color: #b32f18;
   width: 5vh;
   height: 20vh;
   margin-top: 1.5vh;
+  @include rocks;
+}
+
+// MEDIA QUERIES
+
+@media only screen and (min-width: 800px) {}
+@media only screen and (max-width: 800px) {
+  .title {
+    width: 19vw;
+  }
 }
