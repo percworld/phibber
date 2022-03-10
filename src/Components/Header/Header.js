@@ -9,7 +9,7 @@ const Header = ( ) => {
       <Link to='/'
         //   onClick={() => { doSomething() }}
         className='homeLink'>
-        <h3 className='title' data-cy='appName'>Dashboard</h3>
+        <h3 className='dashboard' data-cy='appName'>Dashboard</h3>
       </Link>
     </header>)
 }

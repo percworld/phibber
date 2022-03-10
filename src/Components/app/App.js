@@ -11,18 +11,29 @@ function App() {
       </Header>
       <section className="body">
         <img src={Inanima} className="artwork" alt="artwork" />
-        <p className="phibber">
-          PHIBBER
-          {/* Chuck Morris - new app boiler */}
-        </p>
-        <a
-          className="App-link"
-          href="soundcloud.com/phibber"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Whistle While you Work
-        </a>
+        <div className="title-box">
+
+          <p className="title">
+            PHIBBER
+            {/* Chuck Morris - new app boiler */}
+          </p>
+        </div>
+        <div className="login-or-link">
+          <a
+            className="App-link"
+            href="soundcloud.com/phibber"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Whistle While you Work
+          </a>
+        </div>
+        <div className="petal">
+
+          <p className="title">
+            Init commit
+          </p>
+        </div>
       </section>
       <Footer></Footer>
     </main>

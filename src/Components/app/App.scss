@@ -36,7 +36,7 @@
 }
 
 .App-link {
-  color: #b32f18;
+  color: #bfb4b4;
 }
 
 @keyframes App-logo-spin {
@@ -53,10 +53,33 @@
   pointer-events: none;
 }
 
-.phibber {
-  color: #97cc1c;
+.title-box {
+ 
+}
+
+.title {
+  color: #bfb4b4;
   border-radius: 13% 87% 23% 77% / 12% 30% 70% 88%;
   background-color: #b32f18;
-  width: 14vh;
+  width: 42vh;
+  margin-top: -2vh;
 
+}
+
+
+.login-or-link {
+  margin-top: -4vh;
+  border-radius: 18% 82% 73% 27% / 26% 30% 70% 74% ;
+  background-color: #b32f18;
+  color: acacb7;
+  width: 100vw;
+}
+
+.petal {
+  color: #bfb4b4;
+  border-radius: 44% 56% 95% 5% / 23% 23% 77% 77% ;
+  background-color: #b32f18;
+  width: 5vh;
+  height: 20vh;
+  margin-top: 1.5vh;
 }
