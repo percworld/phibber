@@ -1,7 +1,5 @@
 # phibber
 
-(Boiler)[Screen Shot 2022-03-10 at 9.25.03 AM]
-
 Hey this info is already online!
 
 Main Image: https://flic.kr/p/YopRAc
