@@ -1,8 +1,8 @@
 //import { Route, Switch } from 'react-router-dom';
 import React from 'react';
 import './App.scss';
-import Header from '../header/header';
-import Footer from '../footer/footer';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import Inanima from '../pics/Inanima.png';
 
 class App extends React.Component {
