@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
       <main className="App">
         <section className="body">
-          {/* <img src={Inanima} className="artwork" alt="artwork" /> */}
+          <img src={Inanima} className="artwork" alt="artwork" />
           Needs new Image
         </section>
       </main>
