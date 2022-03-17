@@ -15,16 +15,8 @@
   background-attachment: fixed;
 }
 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    
-  }
-}
-
 .body {
   background-color: $inanima-beige;
-  // background-image: url('../pics/Inanima.png');
   min-height: 94vh;
   display: flex;
   flex-direction: column;
@@ -36,15 +28,6 @@
 
 .App-link {
   color: $text;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .artwork {
