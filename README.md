@@ -1,6 +1,6 @@
 # phibber
 
-Hey this info is already online!
+Heroku deployment is down at this time
 
 Main Image: https://flic.kr/p/YopRAc
 
